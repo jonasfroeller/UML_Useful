@@ -1,0 +1,15 @@
+@startuml people
+!theme vibrant
+skinparam actorStyle awesome
+
+"Name" as Person_1
+Person_1 ---> Person_2
+Person_1 ---> Person_3
+Person_1 ..> Person_4
+
+Person_4 ..> Person_2
+
+Person_5 <...> Person_2
+Person_6 <...> Person_2
+Person_7 <...> Person_2
+@enduml
